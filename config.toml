@@ -1,0 +1,31 @@
+# Visitors get light or dark to match their device, and can switch in
+# the ⋮ menu → Settings. Colours shared by both themes go in [theme];
+# anything different goes in [theme.light] or [theme.dark].
+
+[theme]
+font = "sans-serif"
+baseRadius = "6px"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#0F766E"        # brand colour (keep in sync with PALETTES in app.py)
+backgroundColor = "#FAFAF9"
+secondaryBackgroundColor = "#F1F1EF"
+textColor = "#1C1917"
+borderColor = "#E4E4E0"
+
+[theme.dark]
+primaryColor = "#0D9488"
+backgroundColor = "#161514"
+secondaryBackgroundColor = "#22211F"
+textColor = "#F5F5F4"
+borderColor = "#33312E"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
