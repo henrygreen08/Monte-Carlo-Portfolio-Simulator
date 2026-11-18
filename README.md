@@ -2,7 +2,7 @@
 
 A web app that runs a Monte Carlo simulation on a portfolio of real stocks. It uses fat-tailed (Student's t) shocks and correlated returns (Cholesky decomposition), then reports the likely range of outcomes, Value at Risk (VaR) and Conditional VaR (CVaR).
 
-**Live app:** _add your link here after deploying_
+**Live app:** (https://montecarloportfoliosim.streamlit.app)
 
 ![Screenshot](screenshot.png)
 
